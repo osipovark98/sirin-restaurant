@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <title>Russian restaurant</title>
+  </head>
+  <body>
+    <div>
+      <header class="header">
+        <nav class="nav">
+          <a class="logo" href="#">Sirin</a>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link link" href="#">Main</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="#">Menu</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="#">Events</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="#">Contact us</a>
+            </li>
+            <a class="nav__link btn btn--nav" href="#">Reservations</a>
+          </ul>
+          <button class="nav__mobile-btn">
+            <svg class="hamburger" width="44" viewBox="0 0 100 100">
+              <rect
+                class="line top"
+                width="80"
+                height="8"
+                x="10"
+                y="25"
+                rx="5"
+              ></rect>
+              <rect
+                class="line middle"
+                width="80"
+                height="8"
+                x="10"
+                y="45"
+                rx="5"
+              ></rect>
+              <rect
+                class="line bottom"
+                width="80"
+                height="8"
+                x="10"
+                y="65"
+                rx="5"
+              ></rect>
+            </svg>
+          </button>
+        </nav>
+        <div class="header__text-content">
+          <div>
+            <h1 class="header__title logo">Sirin</h1>
+            <p class="header__description">
+              Authentic Russian cuisine restaurant
+            </p>
+            <a class="header__button btn btn--cta" href="#">Make a booking</a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="section-about margin-top--medium">
+          <div class="container">
+            <div class="section-header">
+              <h2 class="heading">About us</h2>
+              <p class="heading-description">
+                The most renowned Russian restaurant in New York
+              </p>
+            </div>
+
+            <div class="about">
+              <div class="about__feature-list">
+                <div class="about__feature">
+                  <div class="about__feature-text">
+                    <h3 class="about__feature-title">Kitchen</h3>
+                    <p class="about__feature-description">
+                      Reviving traditional Russian oven cooking
+                    </p>
+                    <p class="about__feature-note">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Architecto harum vero exercitationem temporibus, odit
+                      provident praesentium laboriosam officia doloribus porro
+                      eius, ab in esse similique voluptatum omnis, odio
+                      obcaecati et cum iusto facilis. At perferendis delectus ab
+                      ea laboriosam explicabo.
+                    </p>
+                  </div>
+                  <img
+                    class="about__feature-image"
+                    src="src/img/about/kitchen.jpeg"
+                    alt=""
+                  />
+                </div>
+
+                <div class="about__feature">
+                  <div class="about__feature-text">
+                    <h3 class="about__feature-title">Chef</h3>
+                    <p class="about__feature-description">
+                      Bocuse d'Or finalist Viktor Beley
+                    </p>
+                    <p class="about__feature-note">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Architecto harum vero exercitationem temporibus, odit
+                      provident praesentium laboriosam officia doloribus porro
+                      eius, ab in esse similique voluptatum omnis, odio
+                      obcaecati et cum iusto facilis. At perferendis delectus ab
+                      ea laboriosam explicabo.
+                    </p>
+                  </div>
+                  <img
+                    class="about__feature-image"
+                    src="src/img/about/chef.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div class="about__feature">
+                  <div class="about__feature-text">
+                    <h3 class="about__feature-title">Team</h3>
+                    <p class="about__feature-description">
+                      We try our best to please our customers
+                    </p>
+                    <p class="about__feature-note">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Architecto harum vero exercitationem temporibus, odit
+                      provident praesentium laboriosam officia doloribus porro
+                      eius, ab in esse similique voluptatum omnis, odio
+                      obcaecati et cum iusto facilis. At perferendis delectus ab
+                      ea laboriosam explicabo.
+                    </p>
+                  </div>
+                  <img
+                    class="about__feature-image"
+                    src="src/img/about/collective.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-reviews margin-top--small">
+          <div class="container">
+            <div class="section-header">
+              <h2 class="heading">Reviews</h2>
+              <p class="heading-description">
+                Media and customer feedback on our restaurant
+              </p>
+            </div>
+
+            <div class="reviews__grid">
+              <div class="review">
+                <blockquote class="review__quote">
+                  Sirin is one of the restaurants leading the resurgence in
+                  traditional Slavic cooking.
+                </blockquote>
+                <div class="review__box">
+                  <img
+                    src="src/img/website_logos/kommersant.ico"
+                    alt=""
+                    class="review__image"
+                  />
+                  <div>
+                    <p class="review__source">Newspaper name</p>
+                    <p class="review__author">Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="review">
+                <blockquote class="review__quote">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                  similique cumque, iure aut ducimus odio expedita aspernatur
+                  sapiente blanditiis accusantium cum ratione, quidem quod ipsa
+                  distinctio, voluptatibus dolorum voluptates omnis a
+                  praesentium! Aliquam dolore ex in doloribus sed necessitatibus
+                  enim, aliquid repudiandae molestias voluptate, deleniti
+                  impedit nobis alias voluptatem tenetur.
+                </blockquote>
+                <div class="review__box">
+                  <img
+                    src="src/img/website_logos/le-monde.png"
+                    alt=""
+                    class="review__image"
+                  />
+                  <div>
+                    <p class="review__source">Le Monde</p>
+                    <p class="review__author">French newspaper since 1944</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="review">
+                <blockquote class="review__quote">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quaerat sapiente a sunt pariatur eius saepe facere. Sit, alias
+                  voluptatum magni ipsam animi culpa! Obcaecati dolor mollitia
+                  consectetur et?
+                </blockquote>
+                <div class="review__box">
+                  <img
+                    src="src/img/website_logos/kommersant.ico"
+                    alt=""
+                    class="review__image"
+                  />
+                  <div>
+                    <p class="review__source">Commersant</p>
+                    <p class="review__author">Russian newspaper since 1909</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="review">
+                <blockquote class="review__quote">
+                  Sirin is one of the restaurants leading the resurgence in
+                  traditional Slavic cooking.
+                </blockquote>
+                <div class="review__box">
+                  <img
+                    src="src/img/website_logos/the-village.ico"
+                    alt=""
+                    class="review__image"
+                  />
+                  <div>
+                    <p class="review__source">The Village</p>
+                    <p class="review__author">
+                      Subscription journal about city life
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-events margin-top--small">
+          <div class="section-header">
+            <h2 class="heading">Events</h2>
+            <p class="heading-description">Enjoy food with novel experiences</p>
+          </div>
+
+          <div class="event-slider">
+            <div class="event-slider__arrows">
+              <div class="event-slider__arrow arr-left">
+                <ion-icon name="chevron-back-sharp"></ion-icon>
+              </div>
+              <div class="event-slider__arrow arr-right">
+                <ion-icon name="chevron-forward-sharp"></ion-icon>
+              </div>
+            </div>
+            <ul class="event-slider__list">
+              <li class="event-slider__item">
+                <img src="/src/img/events/kids.jpg" alt="" />
+              </li>
+              <li class="event-slider__item">
+                <img src="/src/img/events/easter.png" alt="" />
+              </li>
+              <li class="event-slider__item">
+                <img src="/src/img/events/concert.jpg" alt="" />
+              </li>
+              <li class="event-slider__item">
+                <img src="/src/img/events/terrace.jpg" alt="" />
+              </li>
+              <li class="event-slider__item">
+                <img
+                  src="/src/img/events/b43c78c19865f10df4517ae928c0195c.png"
+                  alt=""
+                />
+              </li>
+            </ul>
+            <div class="event-slider__buttons"></div>
+          </div>
+          <div>
+            <a href="#" class="link section-events__link"
+              >See all events &rarr;</a
+            >
+          </div>
+        </section>
+
+        <section class="section-booking margin-top--small">
+          <div class="container">
+            <div class="booking">
+              <h2 class="booking__heading heading">Booking</h2>
+              <img class="booking__picture" src="src/img/booking.jpg" />
+              <div class="booking__content">
+                <form class="booking__form" action="#">
+                  <div class="booking__input input--full-name">
+                    <label for="full-name">Full name</label>
+                    <input
+                      id="full-name"
+                      type="text"
+                      placeholder="Your name"
+                      required
+                    />
+                  </div>
+
+                  <div class="booking__input input--phone-number">
+                    <label for="phone-number">Phone number</label>
+                    <input
+                      id="phone-number"
+                      type="text"
+                      placeholder="+7 999 777 55 33"
+                      required
+                    />
+                  </div>
+
+                  <div class="booking__input input--email">
+                    <label for="email">Email address</label>
+                    <input
+                      id="email"
+                      type="email"
+                      placeholder="me@example.com"
+                    />
+                  </div>
+
+                  <div class="booking__input input--datetime">
+                    <label for="datetime">Date</label>
+                    <input
+                      placeholder="dd/mm/yyy --:--"
+                      type="datetime-local"
+                      id="datetime"
+                    />
+                  </div>
+
+                  <div class="booking__input input--person-count">
+                    <label for="person-count">Guest count</label>
+                    <input type="number" id="person-count" />
+                  </div>
+
+                  <div class="booking__input input--note">
+                    <label for="note"
+                      >Other information you deem important</label
+                    >
+                    <textarea
+                      name="text"
+                      id="note"
+                      cols="30"
+                      rows="10"
+                    ></textarea>
+                  </div>
+                  <div class="booking__buttons">
+                    <button class="btn btn__booking btn--clear">Clear</button>
+                    <button class="btn btn__booking btn--submit">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__box">
+            <div class="footer__column">
+              <p class="footer__column-description">
+                <span>Menu</span>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </p>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="" class="footer__link link">Main menu</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__link link">Drinks</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__link link">Child menu</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <p class="footer__column-description">
+                <span>Events</span>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </p>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="" class="footer__link link">All</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__link link">Upcoming</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__link link">Previous</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <p class="footer__column-description">
+                <span>Get in touch</span>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </p>
+              <ul class="footer__list">
+                <!--
+                <li class="footer__item">
+                  <a href="" class="footer__link link">Contacts</a>
+                </li>
+                -->
+                <li class="footer__item">
+                  <a href="" class="footer__link link">Phone</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__link link">Email</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__link link">Location</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <div class="copyright">
+                <p class="copyright__text">
+                  Copyright &copy; <span class="year">2027</span> by Sirin, Inc.
+                  All rights reserved.
+                </p>
+                <a class="logo footer__logo" href="#">Sirin</a>
+              </div>
+              <form class="subscription-form" action="#">
+                <div>
+                  <label for="subscription"
+                    >Keep up to date with our restaurant:</label
+                  >
+                  <div class="subscription-box">
+                    <input id="subscription" type="email" />
+                    <button class="btn btn--subscribe" type="submit">
+                      Subscribe
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="/script.js"></script>
+  </body>
+</html>
